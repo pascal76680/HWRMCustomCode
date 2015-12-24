@@ -1,0 +1,27 @@
+--Local_Desc - Description of this package
+--Package_Sym - Shared name for packages with the same catagory
+--Package_Desc - Description - may move to a 'package' desc file...
+
+Root = "DATA:\\LevelData\\Multiplayer\\deathmatch"
+ExtFilter = "levels_dm,levels_hw2,levels_dm_hw2,levels_hw1,levels_dm_hw1"
+
+--Tags - Set single tags for all levels...
+Tags = "dm,hw2,dm_hw2,hw1,dm_hw1"
+
+--TagSets - Set groups of tags for all levels (defined in Scripts/Tags/*.tags) - makes bulk editing faster...
+--TagSets = "dm,hw2,dm_hw2,hw1,dm_hw1"
+
+
+LevelList = {
+	{
+		Tags = "2p",
+		Name = "TEST",  -- So maps in deathmatch folder name TEST.level --
+		Desc = "TEST",
+		MaxPlayers = 2,
+	},
+	
+	-- Other stuff
+}
+
+
+-- NOTE : This File MUST be placed in multiplayer folder. And NOT in multiplayer\\deathmatch folder. 
